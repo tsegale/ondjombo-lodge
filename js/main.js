@@ -1,3 +1,5 @@
+if (window.lucide) lucide.createIcons();
+
 const header = document.getElementById('siteHeader');
 const onScroll = () => {
   if (window.scrollY > 20) header.classList.add('solid');
