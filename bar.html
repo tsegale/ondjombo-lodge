@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Contact | Ondjombo Lodge, Ruacana</title>
-<meta name="description" content="Get in touch with Ondjombo Lodge in Ruacana, Omusati Region. Address, phone numbers, email and an enquiry form.">
+<title>Bar | Ondjombo Lodge, Ruacana</title>
+<meta name="description" content="The bar at Ondjombo Lodge, Ruacana. Cocktails, spirits and cold drinks in a relaxed setting, open for sundowners and evening drinks.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -21,11 +21,11 @@
         <li><a href="accommodation.html">Accommodation</a></li>
         <li><a href="conference.html">Conference</a></li>
         <li><a href="restaurant.html">Restaurant</a></li>
-        <li><a href="bar.html">Bar</a></li>
+        <li><a href="bar.html" class="active">Bar</a></li>
         <li><a href="laundry.html">Laundry</a></li>
         <li><a href="explore.html">Explore</a></li>
         <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="contact.html" class="active">Contact</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
       <a href="contact.html" class="nav-book">Book Now</a>
       <button class="burger" id="burgerBtn" aria-label="Open menu">
@@ -41,88 +41,42 @@
   <a href="accommodation.html">Accommodation</a>
   <a href="conference.html">Conference</a>
   <a href="restaurant.html">Restaurant</a>
-  <a href="bar.html">Bar</a>
+  <a href="bar.html" class="active">Bar</a>
   <a href="laundry.html">Laundry</a>
   <a href="explore.html">Explore</a>
   <a href="gallery.html">Gallery</a>
-  <a href="contact.html" class="active">Contact</a>
+  <a href="contact.html">Contact</a>
   <a href="contact.html">Book Now</a>
 </div>
 
 <section>
   <div class="wrap">
-    <div class="section-head reveal">
-      <div class="eyebrow"><span class="rule-mark"></span>Contact</div>
-      <h2>Plan your stay</h2>
-    </div>
-
-    <div class="contact-split reveal">
-      <div class="contact-details">
-        <h3 style="font-size:22px; font-weight:500; margin-bottom:24px;">Ondjombo Lodge</h3>
-        <div class="row">
-          <i data-lucide="map-pinned" class="lucide"></i>
-          <div>
-            <p class="label">Address</p>
-            <p>C35, Omakange / Kamanjab Main Road<br>Ruacana, Omusati Region<br>Namibia</p>
-          </div>
-        </div>
-        <div class="row">
-          <i data-lucide="phone" class="lucide"></i>
-          <div>
-            <p class="label">Tel</p>
-            <p>+264 65 270 264 / +264 65 270 266 / +264 65 270 267</p>
-          </div>
-        </div>
-        <div class="row">
-          <i data-lucide="message-circle" class="lucide"></i>
-          <div>
-            <p class="label">Cell (WhatsApp)</p>
-            <p>+264 81 238 4622</p>
-          </div>
-        </div>
-        <div class="row">
-          <i data-lucide="mail" class="lucide"></i>
-          <div>
-            <p class="label">Email</p>
-            <p>info@ondjombolodge.com.na<br>reservations@ondjombolodge.com.na</p>
-            <!-- CONFIRM WITH CLIENT: secondary address below is spelled exactly as the client sent it (missing the "d" in Ondjombo). Do not silently correct, flag back to client before publishing. -->
-            <p style="margin-top:6px; font-size:13px; color:var(--muted);">onjombo854@gmail.com</p>
-          </div>
+    <div class="feature-hero reveal">
+      <div class="media">
+        <img class="photo" src="assets/bar.jpg" alt="Bar at Ondjombo Lodge, stocked with spirits and cold drinks">
+      </div>
+      <div class="copy">
+        <div class="eyebrow"><span class="rule-mark"></span>Bar</div>
+        <h2>Bar</h2>
+        <p>Unwind with a drink in our relaxed bar area, stocked with spirits, wine and cold beer. It's the natural stop for a sundowner after a day on the road.</p>
+        <div class="meal-row">
+          <div class="meal"><i data-lucide="martini" class="lucide"></i> Cocktails</div>
+          <div class="meal"><i data-lucide="wine" class="lucide"></i> Wine &amp; Spirits</div>
+          <div class="meal"><i data-lucide="beer" class="lucide"></i> Cold Beer</div>
+          <div class="meal"><i data-lucide="moon" class="lucide"></i> Sundowners</div>
         </div>
       </div>
-
-      <div class="map-embed">
-        <iframe
-          src="https://www.google.com/maps?q=Ruacana,Namibia&output=embed"
-          width="100%" height="100%" style="border:0;"
-          loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-        </iframe>
-      </div>
     </div>
+  </div>
+</section>
 
-    <div class="contact-form reveal">
-      <div class="eyebrow"><span class="rule-mark"></span>Send an enquiry</div>
-      <h2 style="margin-top:14px;">Get in touch</h2>
-      <form style="margin-top:28px;" onsubmit="return false;">
-        <div class="field">
-          <label for="name">Full name</label>
-          <input id="name" type="text" placeholder="Your name" required>
-        </div>
-        <div class="field">
-          <label for="email">Email</label>
-          <input id="email" type="email" placeholder="you@example.com" required>
-        </div>
-        <div class="field">
-          <label for="dates">Preferred dates (optional)</label>
-          <input id="dates" type="text" placeholder="e.g. 12 to 15 August">
-        </div>
-        <div class="field">
-          <label for="message">Message</label>
-          <textarea id="message" placeholder="Tell us about your stay, group size or event" required></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary">Send enquiry</button>
-      </form>
+<section class="contact-strip">
+  <div class="wrap reveal">
+    <div>
+      <h2>Hosting a get-together?</h2>
+      <p>Let us know your group size and we'll have the bar ready.</p>
     </div>
+    <a href="contact.html" class="btn btn-primary">Enquire now</a>
   </div>
 </section>
 
